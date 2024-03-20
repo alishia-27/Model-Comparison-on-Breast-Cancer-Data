@@ -4,17 +4,23 @@ The three main models I have chosen include Logistic Regression, Decision Tree, 
 Model Analysis:
 Original Models:
 •	Logistic Regression: Shows a good balance between precision and recall across both classes, with an overall accuracy of 0.890625.
+
 •	Decision Tree: Offers comparable performance to logistic regression, with slightly better recall for the positive class but lower precision.
+
 •	SVM: The performance is lower than the other two models in accuracy and f1-score.
  
 Oversampled Models:
 •	Logistic Regression: The performance remains consistent with the original model, showing a slight improvement in precision for the positive class.
+
 •	Decision Tree: Shows a slight decrease in overall accuracy and precision for the positive class compared to the original model.
+
 •	SVM: Demonstrates an improvement in recall for the positive class but a decrease in precision for the negative class compared to the original SVM.
  
 Under sampled Models:
 •	Logistic Regression: Shows the best overall accuracy among all models at 0.90625, with improved recall for the negative class and precision for the positive class.
+
 •	Decision Tree: While the accuracy is close to the original and oversampled models, there's a slight improvement in the recall for the positive class.
+
 •	SVM: Shows a drop in performance across most metrics compared to the original and oversampled versions.
 
  
