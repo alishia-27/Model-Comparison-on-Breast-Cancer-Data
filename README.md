@@ -1,4 +1,4 @@
-# **Comparing different models on Breast Cancer dataset**
+# Comparing different models on Breast Cancer dataset
 The three main models I have chosen include Logistic Regression, Decision Tree, and SVM. All other techniques applicable to this problem include Random Forests, K-Nearest Neighbors (KNN), Neural Networks, and Gradient Boosting Machines (GBM). In this project I looked at the original, oversampled, and under sampled models for Logistic Regression, Decision Tree, and SVM: 
 
 # Model Analysis:
@@ -12,7 +12,6 @@ The three main models I have chosen include Logistic Regression, Decision Tree, 
 
 •	SVM: The performance is lower than the other two models in accuracy and f1-score.
  ---
- 
 ### Oversampled Models:
 
 •	Logistic Regression: The performance remains consistent with the original model, showing a slight improvement in precision for the positive class.
